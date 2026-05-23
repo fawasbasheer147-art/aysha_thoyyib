@@ -38,7 +38,7 @@ function startAutoScroll() {
             return;
         }
 
-        window.scrollBy(0, 0.8);
+        window.scrollBy(0, 0.5);
 
         requestAnimationFrame(scrollStep);
     }
